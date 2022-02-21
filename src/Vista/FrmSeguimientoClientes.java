@@ -95,7 +95,7 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton cmdAlta;
-    private javax.swing.JButton cmdEliminar;
+    public javax.swing.JButton cmdAlta;
+    public javax.swing.JButton cmdEliminar;
     // End of variables declaration//GEN-END:variables
 }
