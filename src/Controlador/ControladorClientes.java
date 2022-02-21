@@ -10,17 +10,17 @@ package Controlador;
  * @author Stevia
  */
 import Modelo.MDB;
-import Vista.FrmVista;
+import Vista.FmrClientes;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
 
 public class ControladorClientes implements ActionListener{
-  private FrmVista _view; //el formulario 
+  private FmrClientes _view; //el formulario 
   private MDB _model;//el manejador de bases de datos
 
     
-    public ControladorClientes(FrmVista view, MDB model){
+    public ControladorClientes(FmrClientes view, MDB model){
        this._model=model;
        this._view=view;
         this._view.cmdAlta.addActionListener(this);//se obtiene el control sobre el botón alta del formulario
@@ -47,7 +47,8 @@ public void iniciar(){
 _view.setTitle("MVC_Visual");
 }
 public void limpiar(){
-_view.txtNombre.setText(null);
+_view.txtCedula.setText(null);
+
 _view.txtUsuario.setText(null);
 
 _view.txtpsw.setText(null);
