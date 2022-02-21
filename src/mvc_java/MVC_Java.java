@@ -9,7 +9,7 @@ import Controlador.ControladorMDB;
 import Modelo.MDB;
 import Vista.FrmVista;
 //hola jan ya lo pude clonar
-//atrabajarxd
+//hola
 /**
  *
  * @author Stevia
