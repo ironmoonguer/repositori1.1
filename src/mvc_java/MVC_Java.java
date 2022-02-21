@@ -8,7 +8,7 @@ package mvc_java;
 import Controlador.ControladorMDB;
 import Modelo.MDB;
 import Vista.FrmVista;
-
+//hola jan ya lo pude clonar
 /**
  *
  * @author Stevia
