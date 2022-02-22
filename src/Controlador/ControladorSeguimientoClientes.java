@@ -54,6 +54,7 @@ _view.txtpsw.setText(null);
 
 
 _view.txtDireccionResidencial.setText(null);
+_view.txtTipocartera.setText(null);
 
 _view.txtNumFactura.setText(null);
 
