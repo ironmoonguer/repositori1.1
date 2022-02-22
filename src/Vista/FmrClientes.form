@@ -43,8 +43,8 @@
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                           <Component id="txtProfesion" alignment="1" pref="138" max="32767" attributes="0"/>
-                                          <Component id="txtValorcredito" alignment="1" max="32767" attributes="0"/>
-                                          <Component id="txtFechacredito" max="32767" attributes="0"/>
+                                          <Component id="txtValorCredito" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="txtFechaCredito" max="32767" attributes="0"/>
                                           <Component id="txtDepartamneto" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
@@ -65,7 +65,7 @@
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="txtLugExp" min="-2" pref="163" max="-2" attributes="0"/>
-                                      <Component id="txtNumerofactura" min="-2" pref="163" max="-2" attributes="0"/>
+                                      <Component id="txtNumFactura" min="-2" pref="163" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
@@ -84,7 +84,7 @@
                               </Group>
                               <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Component id="txtDireccionresidencial" alignment="0" min="-2" pref="540" max="-2" attributes="0"/>
-                              <Component id="txtTipocartera" alignment="1" min="-2" pref="207" max="-2" attributes="0"/>
+                              <Component id="txtTipoCartera" alignment="1" min="-2" pref="207" max="-2" attributes="0"/>
                               <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
@@ -108,7 +108,7 @@
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtNumerofactura" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNumFactura" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="txtNombrecompleto" min="-2" max="-2" attributes="0"/>
@@ -133,14 +133,14 @@
               <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtFechacredito" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtFechaCredito" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtTipocartera" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtTipoCartera" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtValorcredito" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtValorCredito" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="198" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -172,6 +172,9 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtNombrecompleto">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
@@ -182,6 +185,9 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtDireccionresidencialActionPerformed"/>
       </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
@@ -189,6 +195,9 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtCiudad">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel5">
       <Properties>
@@ -199,6 +208,9 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtDepartamnetoActionPerformed"/>
       </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
     <Component class="javax.swing.JButton" name="cmdAlta">
       <Properties>
@@ -235,34 +247,49 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtProfesion">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel8">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Numero Factura"/>
+        <Property name="text" type="java.lang.String" value="Num Factura"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtNumerofactura">
+    <Component class="javax.swing.JTextField" name="txtNumFactura">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel9">
       <Properties>
         <Property name="text" type="java.lang.String" value="Fecha credito"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtFechacredito">
+    <Component class="javax.swing.JTextField" name="txtFechaCredito">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel10">
       <Properties>
         <Property name="text" type="java.lang.String" value="Tipo cartera"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtTipocartera">
+    <Component class="javax.swing.JTextField" name="txtTipoCartera">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel11">
       <Properties>
         <Property name="text" type="java.lang.String" value="Valor credito"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtValorcredito">
+    <Component class="javax.swing.JTextField" name="txtValorCredito">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
   </SubComponents>
 </Form>

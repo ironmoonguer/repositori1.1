@@ -55,7 +55,15 @@ _view.txtpsw.setText(null);
 
 _view.txtDireccionResidencial.setText(null);
 
+_view.txtNumFactura.setText(null);
 
+_view.txtFechaHora.setText(null);
+
+
+_view.txtSaldoRestante.setText(null);
+_view.txtTipoCobro.setText(null);
+_view.txtFechaAcuerdoUno.setText(null);
+_view.txtAcuerdoUno.setText(null);
 
 _view.txtVSeguro.setText(null);
 

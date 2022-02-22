@@ -50,6 +50,16 @@ public void limpiar(){
 _view.txtCedula.setText(null);
 _view.txtLugExp.setText(null);
 
+
+_view.txtProfesion.setText(null);
+
+
+
+
+_view.txtNumFactura.setText(null);
+_view.txtFechaCredito.setText(null);
+_view.txtTipoCartera.setText(null);
+_view.txtValorCredito.setText(null);
 _view.txtpsw.setText(null);
 
 }

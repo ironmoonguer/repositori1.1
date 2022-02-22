@@ -42,13 +42,13 @@ public class FmrClientes extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         txtProfesion = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
-        txtNumerofactura = new javax.swing.JTextField();
+        txtNumFactura = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
-        txtFechacredito = new javax.swing.JTextField();
+        txtFechaCredito = new javax.swing.JTextField();
         jLabel10 = new javax.swing.JLabel();
-        txtTipocartera = new javax.swing.JTextField();
+        txtTipoCartera = new javax.swing.JTextField();
         jLabel11 = new javax.swing.JLabel();
-        txtValorcredito = new javax.swing.JTextField();
+        txtValorCredito = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -93,7 +93,7 @@ public class FmrClientes extends javax.swing.JFrame {
 
         jLabel7.setText("Profesion");
 
-        jLabel8.setText("Numero Factura");
+        jLabel8.setText("Num Factura");
 
         jLabel9.setText("Fecha credito");
 
@@ -123,8 +123,8 @@ public class FmrClientes extends javax.swing.JFrame {
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                             .addComponent(txtProfesion, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 138, Short.MAX_VALUE)
-                                            .addComponent(txtValorcredito, javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(txtFechacredito)
+                                            .addComponent(txtValorCredito, javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addComponent(txtFechaCredito)
                                             .addComponent(txtDepartamneto))))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(jLabel10))
@@ -140,7 +140,7 @@ public class FmrClientes extends javax.swing.JFrame {
                                     .addGap(18, 18, 18)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                         .addComponent(txtLugExp, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(txtNumerofactura, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addComponent(txtNumFactura, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addGroup(layout.createSequentialGroup()
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                         .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -154,7 +154,7 @@ public class FmrClientes extends javax.swing.JFrame {
                                     .addComponent(cmdEliminar))
                                 .addComponent(jLabel11)
                                 .addComponent(txtDireccionresidencial, javax.swing.GroupLayout.PREFERRED_SIZE, 540, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(txtTipocartera, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(txtTipoCartera, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(jLabel7)))
                         .addContainerGap(37, Short.MAX_VALUE))))
         );
@@ -171,7 +171,7 @@ public class FmrClientes extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
                     .addComponent(jLabel8)
-                    .addComponent(txtNumerofactura, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtNumFactura, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(txtNombrecompleto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
@@ -192,13 +192,13 @@ public class FmrClientes extends javax.swing.JFrame {
                 .addGap(58, 58, 58)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel9)
-                    .addComponent(txtFechacredito, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtFechaCredito, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel10)
-                    .addComponent(txtTipocartera, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtTipoCartera, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(58, 58, 58)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel11)
-                    .addComponent(txtValorcredito, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtValorCredito, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 198, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(cmdAlta)
@@ -276,16 +276,16 @@ public class FmrClientes extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     public javax.swing.JTextField txtCedula;
-    private javax.swing.JTextField txtCiudad;
-    private javax.swing.JTextField txtDepartamneto;
-    private javax.swing.JTextField txtDireccionresidencial;
-    private javax.swing.JTextField txtFechacredito;
+    public javax.swing.JTextField txtCiudad;
+    public javax.swing.JTextField txtDepartamneto;
+    public javax.swing.JTextField txtDireccionresidencial;
+    public javax.swing.JTextField txtFechaCredito;
     public javax.swing.JTextField txtLugExp;
-    private javax.swing.JTextField txtNombrecompleto;
-    private javax.swing.JTextField txtNumerofactura;
-    private javax.swing.JTextField txtProfesion;
-    private javax.swing.JTextField txtTipocartera;
-    private javax.swing.JTextField txtValorcredito;
+    public javax.swing.JTextField txtNombrecompleto;
+    public javax.swing.JTextField txtNumFactura;
+    public javax.swing.JTextField txtProfesion;
+    public javax.swing.JTextField txtTipoCartera;
+    public javax.swing.JTextField txtValorCredito;
     // End of variables declaration//GEN-END:variables
 
 }
