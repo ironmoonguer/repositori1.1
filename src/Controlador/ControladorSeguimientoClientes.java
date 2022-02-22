@@ -47,10 +47,25 @@ public void iniciar(){
 _view.setTitle("MVC_Visual");
 }
 public void limpiar(){
-_view.txtNombre.setText(null);
-_view.txtUsuario.setText(null);
+_view.txtId.setText(null);
+_view.txtCedula.setText(null);
 
 _view.txtpsw.setText(null);
+
+
+_view.txtDireccionResidencial.setText(null);
+
+
+
+_view.txtVSeguro.setText(null);
+
+
+
+_view.txtFechaAcuerdoDos.setText(null);
+_view.txtAcuerdoDos.setText(null);
+_view.txtFechaAcuerdoTres.setText(null);
+_view.txtAcuerdoTres.setText(null);
+
 
 }
 }

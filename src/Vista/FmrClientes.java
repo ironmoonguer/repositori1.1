@@ -280,7 +280,7 @@ public class FmrClientes extends javax.swing.JFrame {
     private javax.swing.JTextField txtDepartamneto;
     private javax.swing.JTextField txtDireccionresidencial;
     private javax.swing.JTextField txtFechacredito;
-    private javax.swing.JTextField txtLugExp;
+    public javax.swing.JTextField txtLugExp;
     private javax.swing.JTextField txtNombrecompleto;
     private javax.swing.JTextField txtNumerofactura;
     private javax.swing.JTextField txtProfesion;

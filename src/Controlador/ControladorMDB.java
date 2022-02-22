@@ -33,7 +33,7 @@ public void actionPerformed(ActionEvent e) {
 
         if (e.getSource()==_view.cmdAlta){ //Si el botón presionado fue el de alta
          // System.out.print("paso");
-        leyenda=_model.registrarAlta("tbusuarios"," null, ' " +_view.txtNombre.getText()+" ',' " +_view.txtUsuario.getText() +" ', "+_view.txtpsw.getText() );
+        leyenda=_model.registrarAlta("tbusuarios"," null, ' " +_view.txtNombre.getText()+" ',' " +_view.txtUsuario.getText() +" ', "+_view.txtpsw.getText()+_view.txtId.getText() +" ', " );
         //Se puede usar una variable o el control, lo ideal es que se pudiera llamar una función de
        // validación aquí sobre los datos obteindos de las cajas de texto
        System.out.print (leyenda);
@@ -49,7 +49,7 @@ _view.setTitle("MVC_Visual");
 public void limpiar(){
 _view.txtNombre.setText(null);
 _view.txtUsuario.setText(null);
-
+_view.txtId.setText(null);
 _view.txtpsw.setText(null);
 
 }
